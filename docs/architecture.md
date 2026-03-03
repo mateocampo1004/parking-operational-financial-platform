@@ -6,8 +6,8 @@ The Parking Operational & Financial Management Platform supports the daily opera
 
 ```mermaid
 flowchart LR
-    OP[Parking Operator<br/>Morvaden]
-    SYS[Parking Operational & Financial<br/>Management Platform]
+    OP["Parking Operator\nMorvaden"]
+    SYS["Parking Operational & Financial\nManagement Platform"]
     DB[(PostgreSQL)]
     SRI[SRI Ecuador]
 
@@ -23,8 +23,8 @@ The platform is split into a desktop client, an operational backend, a separate 
 ```mermaid
 flowchart TD
     UI[Jetpack Compose Desktop UI]
-    BE[Spring Boot Backend<br/>(Modular Monolith)]
-    FE[fe-local<br/>(Electronic Invoicing Microservice)]
+    BE["Spring Boot Backend\n(Modular Monolith)"]
+    FE["fe-local\n(Electronic Invoicing Microservice)"]
     DB[(PostgreSQL)]
     SRI[SRI Ecuador]
 
