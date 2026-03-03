@@ -163,8 +163,7 @@ Planned:
 /docs  
 - technical-decisions.md  
 - production-overview.md  
-- diagrams/  
-- screenshots/  
+
 
 ---
 
